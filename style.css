@@ -1,0 +1,375 @@
+/* Top Container Style */
+.top-container{
+    display: flex;
+    justify-content: space-around;
+    height: 17vh;
+    align-items: center;
+}
+.top-container ul{
+    display: flex;
+    gap: 40px;
+}
+li{
+    list-style: none;
+    font-size: 1.7rem;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.top-container p{
+    font-size: 1.7rem;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+/* Featuring Me Container Style */
+.featuring-me{
+    display: flex;
+    justify-content:center;
+    height: 73vh;
+    width: 80%;
+    align-items: center;
+    margin: 0 10vw;
+}
+.mypfp{
+    width: 400px;
+    height: 400px;
+    margin: 0 60px;
+}
+.logos-container img{
+    height: 40px;
+    width: 40px;
+}
+
+.para1, .para2, .para3{
+    font-family: "Tajawal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 2px;
+    margin: 0;
+    width: 100%;
+}
+.para1{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.para2{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.para3{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 0 20px 0;
+}
+.buttons-container button{
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    cursor: pointer;
+}
+button:hover{
+  background-color: cadetblue;
+}
+.logos-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.feature-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* About Me Styling */
+.about-me{
+    padding-top: 4vh;
+    height: 83vh;
+    width: 80%;
+    margin: 0 10vw;
+    box-sizing: border-box;
+    min-height: fit-content;
+  }
+.about-me p,h1{
+    display: block;
+    text-align: center;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.about-me h1{
+    font-size: 2.7rem;
+    font-weight: bolder;
+}
+.inner-about-me{
+    display: flex;
+    gap: 4rem;
+}
+.about-me .left-container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+.about-me .left-container img{
+    border-radius: 2rem;
+}
+.about-me .right-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.boxes-container{
+     display: flex;
+     gap: 2rem;
+     margin-top: 2rem;
+     margin-bottom:2rem;
+}
+.boxes-container .box{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+.box img{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    overflow: clip;
+}
+.about-me .text-container{
+    display: block;
+}
+/* My Expreience Styling */
+.my-exp-section{
+    display: block;
+    justify-content:center;
+    height: 63vh;
+    width: 80%;
+    align-items: center;
+    margin: 0 10vw;
+}
+.my-exp-section p{
+    text-align: center;
+}
+.my-exp-section .big-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+    
+}
+.my-exp-section .box{
+    border-radius: 1rem;
+    width: 50%; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+    
+}
+.my-exp-section .inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.my-exp-section .inner .small-box{
+    display: flex;
+    width: 12rem;
+    justify-content: space-around;
+    
+}
+.my-exp-section .inner .small-box img{
+    width: 40px;
+    height: 40px;
+}
+.my-exp-section p,h1{
+    display: block;
+    text-align: center;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.my-exp-section h1{
+    font-size: 2.7rem;
+    font-weight: bolder;
+}
+.my-exp-section .big-container .box h1 {
+    margin:2rem;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: grey;
+}
+/* My Projects Styling */
+.My-Projects{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4vh;
+    height: 103vh;
+    width: 80%;
+    margin: 0 10vw;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+.My-Projects p,h1{
+    display: block;
+    text-align: center;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.My-Projects h1{
+    font-size: 2.7rem;
+    font-weight: bolder;
+}
+.My-Projects .Big-con{
+    display: inline;
+}
+.My-Projects .Big-con .inner-con{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    height: 70vh;
+}
+.My-Projects .Big-con .inner-con .box{
+    display: block;
+    width: 30%;
+    border-radius: 2rem;
+    text-align: center;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+}
+.My-Projects .Big-con .inner-con .box img{
+    height: 400px;
+    width: 350px;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.My-Projects .Big-con .inner-con .box .box-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
+.My-Projects .Big-con .inner-con .box .box-btns button{
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    cursor: pointer;
+}
+button:hover{
+  background-color: cadetblue;
+}
+/* Contact Me styling */
+.contact-me {
+    display: block;
+    padding-top: 4vh;
+    height: 43vh;
+    width: 80%;
+    margin: 0 10vw;
+    box-sizing: border-box;
+    min-height: fit-content;
+    text-align: center;
+}
+
+.contact-me p, h1 {
+    display: block;
+    text-align: center;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.contact-me h1 {
+    font-size: 2.7rem;
+    font-weight: bolder;
+}
+
+.contact-me .contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-me .contact-container .box {
+    display: flex;
+    flex-direction: row;
+    border: black 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    border-radius: 1rem;
+    width: 40%;
+    justify-content: space-evenly;
+    height: 10vh;
+}
+.contact-me .contact-container .box .b1{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    gap: 1rem;
+    margin: 2rem;
+}
+.contact-me .contact-container .box .b1 img{
+    height: 40px;
+    width: 40px;
+}
+.contact-me .contact-container .box .b1 a{
+    font-size: 1.6rem;
+}
+/* Footer Styling */
+.footer-section {
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4vh;
+    height: 33vh;
+    width: 80%;
+    margin: 0 10vw;
+    box-sizing: border-box;
+    min-height: fit-content;
+    text-align: center;
+}
+
+.footer-section ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    justify-content: center;
+}
+
+.footer-section ul li {
+    font-size: 1.7rem;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.footer-section p {
+    font-size: 1.7rem;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.footer-section li{
+    font-size: 1rem;
+}
+.footer-section p{
+    font-size: 1rem;
+    margin: 3rem;
+}
+
